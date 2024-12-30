@@ -1,0 +1,107 @@
+body {
+    background-color: #f1f5f8;
+}
+
+.review {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+button-container {
+    display: flex;
+    flex-direction: column;
+}
+#author {
+    color: #fff;
+    font-size: 1.5em;
+}
+#job {
+    color: rgb(177, 25, 25);
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+#job::selection {
+    color: #fff;
+    background-color: rgb(177, 25, 25);
+}
+
+#info {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.info {
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.title h2{
+    color: #222;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline 2px rgb(177, 25, 25);
+}
+
+
+.button-container button {
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-family: system-ui;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.random-btn {
+    font-weight: 600;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    font-family: system-ui;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: rgb(20, 20, 20);
+}
+
+.random-btn:active {
+    background-color: #fff;
+    color: rgb(20, 20, 20);
+}
+
+.img-container {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+img {
+    width:100%;
+    border-radius: 20px;
+}
+
+
+
+::selection {
+    color: rgb(177, 25, 25);
+    background-color: #fff;
+}
+
+.highlight {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
